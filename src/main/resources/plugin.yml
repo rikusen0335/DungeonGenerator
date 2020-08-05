@@ -1,8 +1,10 @@
 name: DungeonGenerator
-version: @version@
+version: '1.0'
 main: net.rikusen.dungeongenerator.DungeonGenerator
 api-version: 1.14
 author: rikusen0335
 commands:
   dg:
+    alias: dungeongenerator
     description: DungeonGenerator command
+    usage: "/dg generate | /dg help"
