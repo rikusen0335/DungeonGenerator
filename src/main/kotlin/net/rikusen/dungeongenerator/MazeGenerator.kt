@@ -18,7 +18,6 @@ class MazeGenerator {
     private val width: Int = 9
     private var maze: Array<Array<Int>> = Array(this.width) {Array(this.width) {this.WALL} }
     private var currentCell: Cell = Cell()
-    private var targetCell: Cell = Cell()
     private var startCell: Cell = Cell()
     private var endCell: Cell = Cell()
     private val stack = Stack<Int>()
